@@ -57,6 +57,12 @@
             <artifactId>flyway-database-postgresql</artifactId>
         </dependency>
 
+        <!-- Spring Security for BCrypt Password Hashing -->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-security</artifactId>
+        </dependency>
+
         <!-- For running tests -->
         <dependency>
             <groupId>org.springframework.boot</groupId>
