@@ -1,0 +1,18 @@
+# Compiled Java binaries & Maven build output
+**/target/
+*.class
+
+# Log files
+*.log
+
+# IntelliJ IDEA & VS Code project files
+.idea/
+*.iml
+.vscode/
+
+# OS temporary files
+.DS_Store
+Thumbs.db
+
+# Docker volume data
+docker/postgres_data/
